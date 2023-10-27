@@ -6,13 +6,13 @@ function toggleMode() {
 
   if(html.classList.contains("light")) {
     
-    img.setAttribute('src', './assets/avatar-light.png')
-    img.setAttribute("alt", "ANAKIN")
+    img.setAttribute('src', './assets/me-light.png')
+    img.setAttribute("alt", "ANDRE ALAMBERT")
 
   } else {
     
-    img.setAttribute("src", "./assets/Avatar.png")
-    img.setAttribute("alt", "DARTH VADER")
+    img.setAttribute("src", "./assets/me-night.png")
+    img.setAttribute("alt", "ANDRE ALAMBERT")
   }
 
 }
